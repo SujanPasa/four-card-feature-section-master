@@ -1,0 +1,197 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+    font-weight: 400;
+    color:hsl(0, 0%, 36%)
+
+}
+
+    
+.headingText {
+    margin-bottom: 2.5em;
+}
+.container{
+    width: 85%;
+    margin: auto auto;
+}
+
+.grey-blue {
+    color: hsl(229, 6%, 66%);
+
+}
+
+.box p{
+    font-size: 0.9rem;
+}
+.para1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 3em 0em 1em 0em;
+ 
+}
+
+.para2{
+    text-align: center;
+}
+
+/* .line1{
+    font-weight: 300;
+   
+} */
+.line2{
+    font-weight: 600;
+    
+}
+
+h2{
+    font-size: 1.25rem;
+    font-weight:600 ;
+}
+
+
+
+
+/* Mobile Design */
+@media screen and (min-width: 375px) {
+   
+    .box-wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .box{
+        height:30vh;
+        min-height: 30vh;
+        width: 100%;
+        max-width:100%; 
+        margin-top: 2em;
+        /* border: 1px solid blue; */
+        border-radius:.5em;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        /* Edit Here */
+        box-shadow: 0.2em 1.5em 1.5em -0.5em hsl(229, 6%, 66%) ;
+        
+        
+    }
+
+    .red-box{
+        border-top: .5em solid hsl(0, 78%, 62%); 
+    }
+    
+    .cyan-box{
+        border-top: .5em solid hsl(180, 62%, 55%); 
+    }
+    .orange-box{
+        border-top: .55em solid hsl(34, 97%, 64%); 
+    }
+    
+    .blue-box{
+        border-top: .55em solid hsl(212, 86%, 64%); 
+    }
+
+    
+    .box-content {
+        width: 80%;
+        max-width: 80%;
+        height: 90%;
+        
+        /* border: 1px solid black; */
+
+    }
+
+    
+
+    .box-content div{
+        height: 50%;
+    }
+    
+    .img{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    img{
+        float:right;
+    }
+  
+}
+
+
+
+/* Desktop Design */
+
+@media screen and (min-width:1440px){
+
+    .container{
+        width: 90%;
+        margin: auto auto;
+        
+    }
+
+    .box-wrapper{
+        height:100vh;
+        display: flex;
+        /* border: 3px solid black; */
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+
+  .para1 {
+      font-size: 2rem;
+
+  } 
+
+  .para2{
+      width: 40%;
+      margin: auto auto;
+  }
+
+.col{
+    width: 30%;
+}
+
+
+.box{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: auto auto;
+    height: 20em;
+}
+    
+.col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.col3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+    
+}
+
+footer{
+    text-align: center;
+    width: 90%;
+    margin: auto auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
