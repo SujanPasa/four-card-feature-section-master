@@ -9,10 +9,6 @@
 
 }
 
-    
-.headingText {
-    margin-bottom: 2.5em;
-}
 .container{
     width: 85%;
     margin: auto auto;
@@ -134,9 +130,13 @@ h2{
         margin: auto auto;
         
     }
+    .headingText{
+        height: 20vh;
+        margin: 1.5em auto;
+    }
 
     .box-wrapper{
-        height:100vh;
+        height: 80vh;
         display: flex;
         /* border: 3px solid black; */
         flex-direction: row;
@@ -146,6 +146,7 @@ h2{
 
   .para1 {
       font-size: 2rem;
+      margin: .5em auto;
 
   } 
 
@@ -163,7 +164,7 @@ h2{
     /* border: 1px solid red; */
     width: 100%;
     margin: auto auto;
-    height: 20em;
+    height: 40%;
 }
     
 .col1{
