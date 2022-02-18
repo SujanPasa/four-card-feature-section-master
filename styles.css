@@ -123,7 +123,7 @@ h2{
 
 /* Desktop Design */
 
-@media screen and (min-width:1440px){
+@media screen and (min-width:1000px){
 
     .container{
         width: 90%;
